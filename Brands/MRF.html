@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Tyre Brands</title>
+ <style>
+  body { margin:0; font-family:Arial,sans-serif; line-height:1.6; }
+  .container { max-width:1200px; margin:auto; padding:20px; }
+  .brand-page { margin-bottom:60px; }
+  .brand-header { display:flex; align-items:center; gap:20px; }
+  .brand-header img { width:100px; }
+  .tagline { font-size:1.2em; color:#555; }
+  .section { margin-top:30px; }
+  h2 { border-bottom:2px solid #333; padding-bottom:5px; margin-bottom:10px; }
+  .catalogue { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+  .tyre-card { border:1px solid #ddd; padding:15px; border-radius:6px; text-align:center; }
+  .tyre-card img { width:100%; height:auto; border-bottom:1px solid #eee; margin-bottom:10px; }
+  .reviews, .promotions { display:grid; gap:20px; }
+  .review, .promotion { border:1px solid #eee; padding:15px; border-radius:6px; }
+  .btn { display:inline-block; background:#007BFF; color:#fff; padding:10px 15px; text-decoration:none; border-radius:4px; }
+  @media (max-width:600px){ .brand-header{flex-direction:column;text-align:center;} .brand-header img{margin-bottom:10px;} }
+ </style>
+</head>
+<body>
+ <div class="container">
+   <!-- MRF -->
+   <section class="brand-page" id="mrf">
+     <div class="brand-header">
+       <img src="mrf-logo.png" alt="MRF Logo" />
+       <div><h1>MRF</h1><p class="tagline">Performance Meets Durability</p></div>
+     </div>
+     <div class="section"><h2>Our Story</h2><p>MRF was started by K. M. Mammen Mappillai as a toy balloon manufacturing unit in 1946 at Tiruvottiyur, Madras (now Chennai). In 1952, the company ventured into the manufacture of tread rubber.[2] Madras Rubber Factory limited was incorporated as a private company in November 1960 and ventured into manufacture of tyres in partnership with Mansfield Tire & Rubber company based in Ohio, United States.[5] The company went public on 1 April 1961 and an office was established in Beirut, Lebanon to develop the export market in 1964 and its current logo of the muscleman was born.[5] In 1967, it became the first Indian company to export tyres to USA.[6]
+
+In 1973, MRF started manufacturing Nylon tyres for the first time. The company entered into with a technical know-how collaboration with B. F. Goodrich in 1978.[7] The Mansfield Tire & Rubber Co sold out its share in 1979 and the name of the company was changed to MRF Ltd in the year. The company finalised a technical collaboration agreement with Marangoni TRS SPA, Italy for the manufacture of pre-cured tread rubber for retreading industry. MRF tyres supplied tyres to Maruti 800, India's first modern small car.[5] In 1989, the company collaborated with Hasbro International, the world's largest toy maker and launched Funskool India. Also, they entered into a pact with Vapocure of Australia to manufacture polyurethane paint formulations and with Italian tyre manufacturer Pirelli for conveyor and elevator belt manufacture.[7] During the year 2004–05, the product range of the company expanded with Go-kart & rally tyres and tyres for two/three wheelers</p></div>
+     <div class="section"><h2>Full Tyre Catalogue</h2>
+       <div class="catalogue">
+         <div class="tyre-card"><img src="mrf-city.jpg" alt="MRF City Tyre" /><h3>MRF City</h3><p>City‑range economy tyre.</p></div>
+         <div class="tyre-card"><img src="mrf-zlx.jpg" alt="MRF ZLX Tyre" /><h3>MRF ZLX</h3><p>Highway touring tyre.</p></div>
+         <div class="tyre-card"><img src="mrf-wanderer.jpg" alt="MRF Wanderer" /><h3>MRF Wanderer</h3><p>SUV/off‑road capability.</p></div>
+       </div>
+     </div>
+     <div class="section"><h2>Popular Models</h2><ul><li>MRF ZLX – highway mileage</li><li>MRF Wanderer – SUV/off‑road</li></ul></div>
+     <div class="section"><h2>Warranty Policy</h2><p>5‑year manufacturing warranty + upto 60k km mileage guarantee.</p></div>
+     <div class="section reviews"><h2>Customer Reviews</h2>
+       <div class="review"><p>"ZLX lasted 70,000 km—amazing!"</p><p><em>— Ramesh S.</em></p></div>
+       <div class="review"><p>"Great grip and quiet ride."</p><p><em>— Priya N.</em></p></div>
+     </div>
+     <div class="section promotions"><h2>Promotions</h2>
+       <div class="promotion"><p><strong>10% off</strong> on MRF City Tyre with code <em>MRF10</em></p><a href="#" class="btn">Apply</a></div>
+       <div class="promotion"><p><strong>Free alignment</strong> on 4 tyres (₹15,000+)</p><a href="#" class="btn">Redeem</a></div>
+     </div>
+   </section>
+   
+ </div>
+</body>
+</html>

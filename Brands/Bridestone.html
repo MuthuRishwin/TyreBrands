@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bridgestone Tyres</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    .brand-header { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; }
+    .brand-header img { width: 100px; }
+    .tagline { font-size: 1.2em; color: #555; margin: 0; }
+    .section { margin-top: 40px; }
+    h2 { border-bottom: 2px solid #333; padding-bottom: 8px; margin-bottom: 15px; }
+    .catalogue { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .tyre-card { border: 1px solid #ddd; padding: 15px; border-radius: 6px; text-align: center; background: #fafafa; }
+    .tyre-card img { width: 100%; height: auto; border-bottom: 1px solid #eee; margin-bottom: 10px; }
+    .reviews, .promotions { display: grid; gap: 20px; }
+    .review, .promotion { border: 1px solid #eee; padding: 15px; border-radius: 6px; background: #fff; }
+    .btn { display: inline-block; background: #007BFF; color: #fff; padding: 10px 15px; text-decoration: none; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .brand-header { flex-direction: column; text-align: center; }
+      .brand-header img { margin-bottom: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Bridgestone Brand Page -->
+    <section class="brand-page" id="bridgestone">
+      <div class="brand-header">
+        <img src="bridgestone-logo.png" alt="Bridgestone Logo" />
+        <div>
+          <h1>Bridgestone</h1>
+          <p class="tagline">Your Journey, Our Passion</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Our Story</h2>
+        <p>The history of the Bridgestone Tire Company, Ltd., founded in 1931 by Shojiro Ishibashi in Japan.[9] The first Bridgestone tire was produced on 9 April 1930, by the Japanese "Tabi" Socks Tire Division (actually made jika-tabi). One year later on 1 March 1931, the founder, Shojiro Ishibashi, made the "Tabi" Socks Tire Division independent and established the Bridgestone Tire Co., Ltd.[9] in the city of Kurume, Fukuoka Prefecture. "Bridgestone" was named after the name of the founder, Shojiro Ishibashi (石橋; lit. 'stone bridge').[10]
+
+Foregoing dependence on European and North American technology, the Bridgestone Tire Co., Ltd. set its eyes on manufacturing tires based largely on Japanese technology. The fledgling company experienced many difficulties in the areas of technology, production, and sales in the early days. Eventually, improvements were achieved in quality and manufacturing processes which led to the business rapidly expanding in domestic and overseas markets</p>
+      </div>
+
+      <div class="section">
+        <h2>Full Tyre Catalogue</h2>
+        <div class="catalogue">
+          <div class="tyre-card">
+            <img src="bridgestone-driveguard.jpg" alt="Bridgestone DriveGuard Tyre" />
+            <h3>DriveGuard</h3>
+            <p>Run-flat tyre that maintains safety even after puncture.</p>
+          </div>
+          <div class="tyre-card">
+            <img src="bridgestone-turanza.jpg" alt="Bridgestone Turanza Tyre" />
+            <h3>Turanza</h3>
+            <p>Comfort-focused touring tyre for long highway drives.</p>
+          </div>
+          <div class="tyre-card">
+            <img src="bridgestone-blizzak.jpg" alt="Bridgestone Blizzak Tyre" />
+            <h3>Blizzak</h3>
+            <p>Targeted for winter use with superior snow and ice traction.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Popular Models</h2>
+        <ul>
+          <li>DriveGuard – reliable run-flat technology</li>
+          <li>Turanza – luxury touring comfort</li>
+          <li>Blizzak – ultimate winter grip and safety</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Warranty Policy</h2>
+        <p>Bridgestone offers a 5-year manufacturing warranty and mileage coverage up to 60,000 km, depending on the specific tyre model and conditions.</p>
+      </div>
+
+      <div class="section reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+          <p>"Turanza gives a smooth, quiet ride on long trips."</p>
+          <p><em>— Priya S.</em></p>
+        </div>
+        <div class="review">
+          <p>"Blizzak saved me during heavy snowfall—excellent grip!"</p>
+          <p><em>— Rohit K.</em></p>
+        </div>
+      </div>
+
+      <div class="section promotions">
+        <h2>Current Promotions</h2>
+        <div class="promotion">
+          <p><strong>12% off</strong> on Turanza series with code <em>BRID12</em></p>
+          <a href="#" class="btn">Apply Coupon</a>
+        </div>
+        <div class="promotion">
+          <p><strong>Free tyre rotation</strong> with purchase of 4 tyres above ₹20,000</p>
+          <a href="#" class="btn">Redeem Offer</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Bridgestone -->
+  </div>
+</body>
+</html>
