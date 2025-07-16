@@ -1,0 +1,456 @@
+
+span{
+     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+
+
+ body, p, a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #bfd7ea;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+
+a {
+    color: #1f1f1f !important;
+}
+
+
+/* ==============================
+   Navbar & Footer
+   ============================== */
+.navbar,
+footer.o_footer {
+    background-color: #3E3E3E ;
+    color: #1f1f1f !important;
+}
+
+/* Dropdown Menu Styling */
+.navbar-nav .dropdown-menu,
+.o_offcanvas_menu,
+.o_offcanvas_menu .nav-link,
+.o_offcanvas_menu .dropdown-item,
+.o_offcanvas_menu .dropdown-menu,
+.o_offcanvas_menu .dropdown-menu .dropdown-item {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+    font-weight: 500;
+}
+
+
+/* ==============================
+   Buttons
+   ============================== */
+.btn-primary {
+    background-color: white !important;
+    color: #1f1f1f !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #a4c8dd !important; 
+}
+
+.o_wsale_product_grid_wrapper .o_wsale_product_btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: relative !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+
+/* ==============================
+   Product Card Styling
+   ============================== */
+.oe_product_cart {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    background-color: #1f1f1f50;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oe_product_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #bfd7ea;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.oe_product_cart h6,
+.oe_product_cart .product_title,
+.oe_product_cart .product_name {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.oe_product_cart .o_wsale_product_price,
+.oe_product_cart .o_wsale_product_btn {
+    margin-top: auto;
+}
+
+
+/* ==============================
+   Product Grid Filter (Left Panel)
+   ============================== */
+.custom-left-panel {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #d6c2b5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #2a2a2a;
+}
+
+.o_wsale_products_grid_before_rail {
+    overflow-y: auto;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.o_wsale_products_grid_before_rail > *:last-child {
+    margin-bottom: 10px;
+}
+
+.custom-left-panel h4,
+.custom-left-panel .filter-title {
+    color: white;
+    font-weight: bold;
+}
+
+.custom-left-panel label,
+.custom-left-panel .filter-text {
+    color: #2a2a2a;
+}
+
+.custom-left-panel .filter-description {
+    color: #5c5c5c;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.custom-left-panel a {
+    color: #007b8a;
+    text-decoration: none;
+}
+
+
+/* ==============================
+   Attribute Section Styling
+   ============================== */
+.o_wsale_products_grid_table_wrapper .o_wsale_attribute_name,
+#o_wsale_offcanvas .o_wsale_attribute_name {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #87ceeb !important;
+}
+
+.o_wsale_products_grid_table_wrapper .custom-control-label,
+#o_wsale_offcanvas .custom-control-label {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    color: #fdf7f2 !important;
+}
+
+
+/* ==============================
+   Headings (Product Detail)
+   ============================== */
+.oe_product_title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* ==============================
+   Responsive: Mobile Screens
+   ============================== */
+@media only screen and (max-width: 768px) {
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #bfd7ea !important;
+    }
+
+    .o_wsale_product_grid .o_wsale_product_grid_col {
+        width: 48% !important;
+        margin: 1% !important;
+        box-sizing: border-box;
+    }
+
+    .oe_product_cart {
+        height: auto !important;
+        padding: 10px !important;
+        margin: 10px 5px !important;
+    }
+
+    .oe_product_cart h6,
+    .oe_product_cart .product_title,
+    .oe_product_cart .product_name {
+        font-size: 14px !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+    }
+
+    .oe_product_cart .o_wsale_product_price {
+        font-size: 14px !important;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .oe_product_image {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+    }
+
+    .o_wsale_product_btn {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+#wrap.js_sale.o_wsale_products_page{
+        background-color: #722F37 !important;
+
+}
+#wrap.js_sale.o_wsale_product_page {
+    background-color:     #F2F0ED  !important;
+}
+.rounded-image-container {
+    border-radius: 15px;
+    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+}
+.o_wsale_product_images img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Uniform product detail image styling */
+div.product_detail_image img {
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 auto !important;
+    background-color: white !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+/* ==========================
+   PRODUCT DETAIL PAGE STYLES
+   ========================== */
+
+/* 1. Make Product Images Medium and Consistent */
+.o_wsale_product_images img {
+    width: 100%;
+    max-width: 300px; /* Medium size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#product_detail_main .col-lg-6 .p-3.shadow-sm {
+    padding: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+#product_details h1{
+    color: #3E3E3E !important; /* Choose a dark earthy tone */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Same style for both buttons */
+#add_to_cart {
+    background-color: #6B705C!important;  /* Maroon base */
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#add_to_cart:hover {
+    background-color: #5C6351 !important;  
+    transform: scale(1.03);
+
+}
+
+
+#product_detail_main .col-lg-6.d-flex.justify-content-center.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#product_details h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#product_details p.text-muted {
+    font-size: 16px;
+    color: #ccc;
+}
+
+body, a, p, span {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#product_attributes_simple td span:first-child::after {
+    content: "      ";
+    margin-right: 6px;
+}
+
+
+.js_product .oe_price_h4,
+.js_product .oe_price,
+.js_product .oe_currency_value,
+.js_product .oe_currency_value + span,
+.js_product .oe_currency_value::before {
+    font-family: 'Poppins', sans-serif !important; 
+    font-size: 28px !important;
+    font-weight: bold !important;
+    vertical-align: middle;
+    color:#8B6E4B;
+}
+
+
+/* buy now */
+#o_wsale_cta_wrapper a:nth-child(2) {
+    border-radius: 50px;
+    background-color: #8B6E4B  !important;
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+#o_wsale_cta_wrapper a:nth-child(2):hover {
+    background-color: #7A5F3F !important; 
+    transform: scale(1.03); 
+}
+#o_wsale_cta_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+.o_add_wishlist_dyn {
+    background: transparent;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    color: black !important;
+}
+
+.o_add_wishlist_dyn:hover i {
+    color: #7A5F3F !important;
+    transform: scale(1.1);
+}
+
+.variant-box {
+    padding: 20px 0;
+    background-color: #F2F0ED;
+    position: relative;
+}
+
+.variant-box::before,
+.variant-box::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: rgba(162, 131, 110, 0.5); 
+
+    margin: 0 0 20px 0;
+}
+
+.variant-box::after {
+    margin: 16px 0 0 0;
+}
+
+
+
+.variant-item {
+    font-size: 16px;
+    color: #3E3E3E; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.variant-name {
+    font-weight: 600;
+    color: #6B4F3B; 
+}
+
+.value-box {
+    background-color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 12px;
+    border: 1px solid #A2836E;
+    font-size: 14px;
+    color: #4B3832; 
+}
+
+
+span[data-oe-field="name"][data-oe-model="product.template"] {
+    color: #D1B6A1 !important;
+
+}
+
+#o_wsale_cta_wrapper > * {
+    flex: 0 0 auto;
+}
+
+.s_dynamic_snippet_products .card-title {
+    font-size:28px;
+    color: black !important;
+}

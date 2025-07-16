@@ -1,0 +1,227 @@
+<t name="Homepage" t-name="website.homepage">
+    <t t-call="website.layout">
+        <t t-set="pageName" t-value="'homepage'"/>
+        <div id="wrap" class="oe_structure"><section class="s_cover o_colored_level pb152 s_parallax_no_overflow_hidden pt96" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-color: rgba(31, 31, 31, 0.41); background-image: none;">
+        
+        
+        <div class="s_allow_columns container">
+            <h1 style="text-align: left;"><span style="font-size: 42px;"><font style="font-weight: bold;" class="text-o-color-3">Driven by Trust. Powered by Innovation.</font></span></h1><h1 style="text-align: left;"><span style="font-size: 42px;"><font style="font-weight: bold;" class="text-o-color-3">Welcome to Jayamani Automobiles.</font></span></h1><h4 style="text-align: left;"><span style="font-size: 20px;"><font class="text-o-color-3"><span style="font-size: 18px;">Get expert tyre suggestions, seamless fitment bookings, and all-in-one vehicle service&amp;nbsp;</span></font></span></h4><h4 style="text-align: left;"><span style="font-size: 20px;"><font class="text-o-color-3"><span style="font-size: 18px;">Powered by smart tools, trusted brands, and real-time tracking.</span></font></span></h4><p style="text-align: left; margin-top: 20px;"><a class="mb-2 btn btn-custom text-black bg-o-color-1" href="/shop" data-bs-original-title="" title="" style="border-width: 1px; border-style: solid;"><strong>Get Start​​ed​​</strong>​​​​​​</a>​​</p>
+        </div>
+    </section>
+            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel carousel s_carousel_default carousel-fade slide" data-bs-interval="10000" id="myCarousel1749839372740" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay d-none">
+            <li data-bs-target="#myCarousel1749839372740" class="active" data-bs-slide-to="0" aria-current="true"/>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item o_colored_level active pt120 pb144 bg-black-75" style="position: relative; background-image: none;">
+
+                
+                <div style="                     position: absolute;                     top: 0; left: 0; width: 100%; height: 100%;                     background-image: url('/web/image/1051-bcec90da/Adobe%20Express%20-%20file.png');                     background-size: cover;                     background-position: center;                     opacity: 0.95;                     z-index: 1;">
+                </div>
+
+                
+                <div class="oe_unremovable position-relative container" style="z-index: 2;">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-6 o_colored_level bg-black-50 o_animate o_animate_on_scroll o_anim_slide_in o_anim_from_right" style="border-color: rgb(191, 215, 234) !important; animation-delay: -0.359403s;" data-scroll-zone-start="0" data-scroll-zone-end="100">
+                            <h4 style="text-align: left;">
+                                <span style="font-size: 62px; color: #fdf7f2;">
+                                    </span><span style="color: rgb(253, 247, 242); font-size: 36px;"><strong>Get Free Wheel Alignment on&amp;nbsp;Purchase of 4 Tyres!</strong></span><span style="font-size: 36px; color: #fdf7f2;">
+                                </span>
+                            </h4><h3 class="lead">
+                                <span style="font-size: 36px; color: #fdf7f2;">
+                                    </span><span style="color: rgb(253, 247, 242);"><strong>Upgrade your drive with premium tyres and get a complimentary wheel alignment worth ₹899. Limited time only!</strong></span></h3><p style="margin-top: 20px;"><a href="/contactus" class="btn mb-2" style="background-color: #bfd7ea; color: #212529; font-weight: bold;" data-bs-original-title="" title=""><font class="text-black">
+                                    Buy now&amp;nbsp;</font></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay d-none" role="img" aria-label="Previous" title="Previous" href="#myCarousel1749839372740" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"/>
+            <span class="visually-hidden o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay d-none" role="img" aria-label="Next" title="Next" href="#myCarousel1749839372740" data-bs-slide="next">
+            <span class="carousel-control-next-icon"/>
+            <span class="visually-hidden o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+
+
+            
+<section class="o_colored_level pt-5 pb-5" style="position: relative; background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+    <div class="container-fluid">
+        <div class="rounded p-4 shadow-sm text-center" style="background-color: rgba(31, 31, 31, 0.10);">
+            <h4 class="mb-4 fw-bold" style="color: #fdf7f2;"><span style="font-size: 36px;"><font class="text-o-color-3">Search by Vehicle Number, Tyre Size or Brand</font></span></h4>
+            <form method="get" action="/tyre/search">
+                <div class="row justify-content-center align-items-end g-3">
+
+                    
+                    <div class="col-md-3 text-start">
+                        <label class="form-label fw-semibold" style="color: #fdf7f2;">Vehicle Number</label>
+                        <input type="text" name="vehicle_number" class="form-control" placeholder="Enter Plate Number" style="background-color: rgba(255,255,255,0.05); border: 2px solid #fdf7f2; color: #fdf7f2;" required="required"/>
+                    </div>
+
+                    
+                    <div class="col-md-3 text-start o_colored_level">
+                        <label class="form-label fw-semibold" style="color: #fdf7f2;">Tyre Size</label>
+                        <select name="tyre_size" class="form-select" style="background-color: rgba(255,255,255,0.05); border: 2px solid #fdf7f2; color: #fdf7f2;">
+                            <option value="">[Tyre Size Option]</option>
+                            <option value="195/65R15">195/65R15</option>
+                            <option value="205/55R16">205/55R16</option>
+                            <option value="215/60R17">215/60R17</option>
+                        </select>
+                    </div>
+
+                    
+                    <div class="col-md-3 text-start">
+                        <label class="form-label fw-semibold" style="color: #fdf7f2;">Brand</label>
+                        <select name="brand" class="form-select" style="background-color: rgba(255,255,255,0.05); border: 2px solid #fdf7f2; color: #fdf7f2;">
+                            <option value="">[Brand Options]</option>
+                            <option value="MRF">MRF</option>
+                            <option value="Michelin">Michelin</option>
+                            <option value="Bridgestone">Bridgestone</option>
+                            <option value="CEAT">CEAT</option>
+                            <option value="Apollo">Apollo</option>
+                            <option value="JK Tyre">JK Tyre</option>
+                            <option value="Goodyear">Goodyear</option>
+                            <option value="Pirelli">Pirelli</option>
+                            <option value="TVS Eurogrip">TVS Eurogrip</option>
+                        </select>
+                    </div>
+
+                    
+                    <div class="col-md-2 text-start o_colored_level">
+                        <button type="submit" class="btn w-100 fw-semibold" style="background-color: #bfd7ea; color: #212529; border: none;">
+                            <strong>🔍 <font class="text-black">Search</font>
+</strong>                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section><section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="s_allow_columns container">
+            <h3 style="text-align: center;"><font style="font-size: 62px;" class="text-o-color-3"><span style="font-size: 48px;"><strong>Explore Our Services</strong></span></font><font style="font-size: 62px;"/><br/></h3>
+        </div>
+    </section><section class="s_three_columns pt32 pb32 o_colored_level o_cc o_cc2" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="container">
+            <div class="row d-flex align-items-stretch">
+                <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_anim_fade_in o_animate o_animate_on_scroll" data-scroll-zone-start="0" data-scroll-zone-end="100" style="animation-delay: -0.610191s;">
+                    <div class="card text-bg-white h-100 bg-o-color-5 border shadow" style="border-color: rgb(46, 20, 28) !important; border-width: 1px !important; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title"><img src="/web/image/1040-2c8c3a4f/Adobe%20Express%20-%20file%283%29.jpg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block rounded" data-original-id="1031" data-original-src="/web/image/1031-197eaf54/Adobe%20Express%20-%20file%283%29.jpg" data-mimetype="image/jpeg" data-resize-width="300" loading="eager" data-bs-original-title="" title="" aria-describedby="tooltip65371" data-quality="100"/></h3>
+                            <h3 class="card-title" style="text-align: center;"><span style="font-size: 24px;"><strong><font style="color: rgb(31, 31, 31);">Book Tyres</font></strong></span></h3>
+                            <p class="card-text" style="text-align: center;"><font style="color: rgb(31, 31, 31);">Explore top tyre brands and perfect fit for your vehicle.</font></p><p class="card-text" style="text-align: center;"><a title="" data-bs-original-title="" style="border-width: 1px; border-style: solid;" class="btn btn-custom text-black bg-o-color-1" href="/shop"><strong>Shop&amp;nbsp;Now​​</strong></a></p></div>
+                    </div>
+                </div>
+                <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_anim_fade_in o_animate o_animate_on_scroll" data-scroll-zone-start="0" data-scroll-zone-end="100" style="animation-delay: -0.00382075s;">
+                    <div class="card text-bg-white h-100 bg-o-color-5" style="border-color: rgb(46, 20, 28);">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title"><img src="/web/image/1041-7dda2cbf/Adobe%20Express%20-%20file%284%29.jpg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block rounded" data-original-id="1032" data-original-src="/web/image/1032-0211573c/Adobe%20Express%20-%20file%284%29.jpg" data-mimetype="image/jpeg" data-resize-width="300" loading="eager" data-bs-original-title="" title="" aria-describedby="tooltip756977" data-quality="100"/></h3><h3 class="card-title" style="text-align: center;"><span style="font-size: 24px;"><font style="color: rgba(31, 31, 31, 0.96);"><strong>Book Fitment</strong></font></span></h3>
+                            <p class="card-text" style="text-align: center;"><font style="color: rgba(31, 31, 31, 0.96);">Get professional tyre fitting at your nearest center.</font></p><p class="card-text" style="text-align: center;"><a href="/shop" class="btn btn-custom text-black bg-o-color-1" style="border-width: 1px; border-style: solid;" data-bs-original-title="" title=""><strong>Book Now</strong>​​</a><br/></p></div>
+                    </div>
+                </div>
+                <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_anim_fade_in o_animate o_animate_on_scroll" data-scroll-zone-start="0" data-scroll-zone-end="100" style="animation-delay: -0.00382075s;">
+                    <div class="card text-bg-white h-100 bg-o-color-5" style="border-color: rgb(46, 20, 28);">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title"><img src="/web/image/1042-5276baf8/Adobe%20Express%20-%20file%285%29.jpg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block rounded" data-original-id="1033" data-original-src="/web/image/1033-22216d98/Adobe%20Express%20-%20file%285%29.jpg" data-mimetype="image/jpeg" data-resize-width="300" loading="eager" data-bs-original-title="" title="" aria-describedby="tooltip433698" data-quality="100"/></h3><h3 class="card-title" style="text-align: center;"><span style="font-size: 24px;"><strong><font style="color: rgba(31, 31, 31, 0.96);">Track Orders</font></strong></span></h3>
+                            <p class="card-text" style="text-align: center;"><font style="color: rgba(31, 31, 31, 0.96);">Check the real-time status of your delivery or fitment.</font></p><p class="card-text" style="text-align: center;"><a href="http://View Orders" class="btn btn-custom text-black bg-o-color-1" style="border-width: 1px; border-style: solid;" data-bs-original-title="" title=""><strong>Track Now</strong></a><br/></p>
+                        </div>
+                    </div>
+                </div><div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_anim_fade_in o_animate o_animate_on_scroll" data-scroll-zone-start="0" data-scroll-zone-end="100" style="animation-delay: -0.116742s;">
+                    <div class="card text-bg-white h-100 bg-o-color-5" style="border-color: rgb(46, 20, 28);">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title"><img src="/web/image/1039-913c4bcf/Adobe%20Express%20-%20file%286%29.jpg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block rounded" data-original-id="1034" data-original-src="/web/image/1034-0442598b/Adobe%20Express%20-%20file%286%29.jpg" data-mimetype="image/jpeg" data-resize-width="300" loading="eager" data-bs-original-title="" title="" aria-describedby="tooltip77119" data-quality="100"/></h3><h3 class="card-title" style="text-align: center;"><span style="font-size: 24px;"><strong><font style="color: rgba(31, 31, 31, 0.96);">AI&amp;nbsp;Advisor</font></strong></span></h3>
+                            <p class="card-text" style="text-align: center;"><font style="color: rgba(31, 31, 31, 0.96);">Let our AI recommend the best tyres for your vehicle.</font></p><p class="card-text" style="text-align: center;"><a href="http://AI_tyro_advisor" class="btn btn-custom text-black bg-o-color-1" data-bs-original-title="" title="" style="border-width: 1px; border-style: solid;"><strong>Try Now</strong></a><br/></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-6 pt16 pb16 o_colored_level">
+    <div class="p-5 rounded-4" style="             background-color: rgba(255, 255, 255, 0.05);             border: 1px solid rgba(255, 255, 255, 0.3);  /* Light visible border */             border-radius: 16px;             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);  /* Subtle shadow */         ">
+        
+        <h2 class="fw-bold text-o-color-4" style="font-size: 36px;                    background: linear-gradient(90deg, #bfd7ea, #ffffff);                    -webkit-background-clip: text;                    -webkit-text-fill-color: transparent;">
+            <strong><font class="text-black">AI Tyre Advisor</font></strong>
+        </h2>
+
+        <p class="fs-5 text-o-color-4" style="color: #fdf7f2;"><font class="text-o-color-3">
+            Your Smart Tyre Matchmaker
+        </font></p>
+
+        <ul class="text-o-color-4" style="                 font-size: 18px;                 padding-left: 1.2rem;                 color: #fdf7f2;                 line-height: 1.8;                 list-style: none;                 margin: 0;             ">
+            <li><font class="text-o-color-3">➤ Personalized tyre picks based on your vehicle</font></li>
+            <li><font class="text-o-color-3">➤ Smart match from top brands instantly</font></li>
+            <li><font class="text-o-color-3">➤ Tailored for city, highway, or off-road use</font></li>
+            <li><font class="text-o-color-3">➤ Quick, no-hassle recommendations 24/7</font></li>
+            <li><font class="text-o-color-3">➤ Learns from your choices for better suggestions over time</font></li>
+        </ul>
+
+        <a href="http://AI_tyro_Advisore" class="mt-4 btn btn-custom text-black" style="background-color: rgb(191, 215, 234); font-weight: bold; border-radius: 8px; padding: 10px 24px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px; transition: transform 0.2s; transform: translateY(0px); border-width: 1px; border-style: solid;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'" data-bs-original-title="" title="">
+            🚀 <strong>Get Started</strong>
+        </a></div>
+</div>
+
+
+
+
+
+                <div class="col-lg-6 pt16 pb16 o_colored_level">
+                    <img src="/web/image/1047-618f239e/Adobe%20Express%20-%20file%287%29.jpg" alt="" class="img img-fluid mx-auto o_we_custom_image" data-original-id="1046" data-original-src="/web/image/1046-9ed2544b/Adobe%20Express%20-%20file%287%29.jpg" data-mimetype="image/jpeg" data-resize-width="630" loading="lazy" data-bs-original-title="" title="" aria-describedby="tooltip677369"/>
+                </div>
+            </div>
+        </div>
+    </section><section id="why_choose_us" class="s_title o_colored_level pt24 pb16" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="s_allow_columns container">
+            <h3 style="text-align: center;"><font style="font-size: 62px;" class="text-o-color-3"><span style="font-size: 48px;"><strong>Why Choose us ?</strong></span></font></h3>
+        </div>
+    </section><section class="s_three_columns o_colored_level o_cc o_cc2 pt0 pb72" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="container">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>Premium Brands You Can Rely On</strong></h3>
+                            <p class="card-text" style="text-align: center;">We partner with industry-leading tyre manufacturers to ensure every product we offer is genuine, high-quality, and backed by a full warranty — no compromises.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>AI-Powered Tyre Recommendations</strong></h3>
+                            <p class="card-text" style="text-align: center;">Our intelligent advisor analyses your vehicle, usage patterns, and preferences to deliver the most accurate tyre matches — saving you time, effort, and guesswork.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>Smooth Fitment &amp;amp; Real-Time Tracking</strong></h3>
+                            <p class="card-text" style="text-align: center;">From online booking to doorstep service or center fitment, we provide a fully transparent process with live updates, so you're always informed and in control.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></div>
+    </t>
+</t>

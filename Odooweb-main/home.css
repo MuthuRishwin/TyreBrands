@@ -1,0 +1,63 @@
+//
+
+/* homepage_custom.css */
+
+/* Smooth rounded UI for containers and content boxes */
+.container,
+.card,
+.rounded,
+.carousel-content,
+.s_allow_columns {
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+/* Optional soft shadows for card elements */
+.card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Background fade for light contrast */
+.card-body {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Buttons */
+.btn-custom,
+.btn-primary {
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Search form styling */
+form .form-control,
+form .form-select {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid #fdf7f2;
+    color: #fdf7f2;
+}
+
+/* Improve form button appearance */
+form .btn {
+    background-color: #bfd7ea;
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Optional: Carousel background overlay */
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+// This file is meant to regroup your design customizations. For example, doing
+// this will separate your footer with a dotted border using your primary color.
+//
+// footer {
+//     border-top: 5px dotted map-get($theme-colors, 'primary');
+// }
+//

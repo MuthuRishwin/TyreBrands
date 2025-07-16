@@ -1,0 +1,100 @@
+<t name="About Us" t-name="website.about-us">
+        <t t-call="website.layout">
+            <div id="wrap" class="">
+                <div class="oe_structure">
+                    <section class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24" data-vcss="001" data-snippet="s_title" data-scroll-background-ratio="1" data-name="Title">
+                        <span class="s_parallax_bg oe_img_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"/>
+                        <div class="o_we_bg_filter bg-black-50"/>
+                        <div class="container">
+                            <h1>About us</h1>
+                        </div>
+                    </section>
+                </div>
+                <div class="oe_structure">
+    <section id="our_values" class="s_title o_colored_level pt24 pb16" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+    <div class="s_allow_columns container">
+        <h3 style="text-align: center;">
+            <font style="font-size: 62px;" class="text-o-color-3">
+                <span style="font-size: 48px;"><strong>Our Values</strong></span>
+            </font>
+        </h3>
+    </div>
+</section>
+
+<section class="s_three_columns o_colored_level o_cc o_cc2 pt0 pb72" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+    <div class="container">
+        <div class="row d-flex align-items-stretch">
+        
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                    <div class="card-body">
+                        <h3 class="card-title" style="text-align: center;"><strong>Integrity</strong></h3>
+                        <p class="card-text" style="text-align: center;">We uphold honesty and transparency in all our interactions, building trust with every customer and partner.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                    <div class="card-body">
+                        <h3 class="card-title" style="text-align: center;"><strong>Customer-First Approach</strong></h3>
+                        <p class="card-text" style="text-align: center;">Every decision and service we offer is centred around ensuring the satisfaction and convenience of our customers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                    <div class="card-body">
+                        <h3 class="card-title" style="text-align: center;"><strong>Commitment to Quality</strong></h3>
+                        <p class="card-text" style="text-align: center;">We strive to deliver products and services of the highest quality, ensuring safety, reliability, and peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="why_choose_us" class="s_title o_colored_level pt24 pb16" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="s_allow_columns container">
+            <h3 style="text-align: center;"><font style="font-size: 62px;" class="text-o-color-3"><span style="font-size: 48px;"><strong>Why Choose us ?</strong></span></font></h3>
+        </div>
+    </section><section class="s_three_columns o_colored_level o_cc o_cc2 pt0 pb72" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgba(31, 31, 31, 0.5); background-image: none;">
+        <div class="container">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>Premium Brands You Can Rely On</strong></h3>
+                            <p class="card-text" style="text-align: center;">We partner with industry-leading tyre manufacturers to ensure every product we offer is genuine, high-quality, and backed by a full warranty — no compromises.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>AI-Powered Tyre Recommendations</strong></h3>
+                            <p class="card-text" style="text-align: center;">Our intelligent advisor analyses your vehicle, usage patterns, and preferences to deliver the most accurate tyre matches — saving you time, effort, and guesswork.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100 bg-o-color-5 shadow" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px !important;">
+                        
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;"><strong>Smooth Fitment &amp;amp; Real-Time Tracking</strong></h3>
+                            <p class="card-text" style="text-align: center;">From online booking to doorstep service or center fitment, we provide a fully transparent process with live updates, so you're always informed and in control.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+            </div>
+        </t>
+    </t>
